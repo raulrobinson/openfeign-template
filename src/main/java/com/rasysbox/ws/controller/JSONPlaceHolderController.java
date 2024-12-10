@@ -1,5 +1,7 @@
-package com.rasysbox.ws;
+package com.rasysbox.ws.controller;
 
+import com.rasysbox.ws.service.JSONPlaceHolderClient;
+import com.rasysbox.ws.model.Post;
 import org.slf4j.Logger;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

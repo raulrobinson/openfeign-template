@@ -1,4 +1,4 @@
-package com.rasysbox.ws;
+package com.rasysbox.ws.model;
 
 import lombok.Getter;
 import lombok.Setter;
