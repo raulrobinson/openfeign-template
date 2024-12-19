@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
-@FeignClient(value = "jplaceholder", url = "https://jsonplaceholder.typicode.com/")
+@FeignClient(value = "json-placeholder", url = "https://jsonplaceholder.typicode.com/")
 public interface JSONPlaceHolderClient {
 
     @RequestMapping(method = RequestMethod.GET, value = "/posts")
